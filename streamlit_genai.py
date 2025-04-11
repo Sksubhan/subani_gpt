@@ -6,7 +6,7 @@ st.header('subGPT')
 st.title("🤖 Gemini Chatbot")
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyBxvRuEfBUaQKTyWNN2wpr0lpqWxm_K6dw")  # Replace with your real API key
+genai.configure(api_key="API_KEY")  # Replace with your real API key
 
 # Use the best Gemini model
 model = genai.GenerativeModel("models/gemini-1.5-pro-002")
